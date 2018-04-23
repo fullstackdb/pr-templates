@@ -1,31 +1,36 @@
-<!--- Provide a general summary of your changes in the Title above -->
+<!--- Title template
+fill with your info and copy into input above 
+
+[Types of changes] | [scope]: [description] | [PM card code]
+
+Types of changes:
+- BugFix (non-breaking change which fixes an issue)
+- Feature (change which adds functionality)
+
+Example:
+Feature | app-name: create router for inbox in marketplace | TRY-777 
+-->
 
 ## Description
-<!--- Describe your changes in detail -->
-
-## Motivation and Context
-<!--- Why is this change required? What problem does it solve? -->
-<!--- If it fixes an open issue, please link to the issue here. -->
-
-## How Has This Been Tested?
-<!--- Please describe in detail how you tested your changes. -->
-<!--- Include details of your testing environment, and the tests you ran to -->
-<!--- see how your change affects other areas of the code, etc. -->
-
-## Screenshots (if appropriate):
-
-## Types of changes
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
+<!--- Describe your changes -->
 
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
-- [ ] My code follows the code style of this project.
-- [ ] My change requires a change to the documentation.
-- [ ] I have updated the documentation accordingly.
-- [ ] I have read the **CONTRIBUTING** document.
+- [ ] My commits messages format follows the project [git commit message format](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines).
+- [ ] My code follows the code style of project.
+- [ ] Lint checking is passed.
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
+- [ ] My changes are matched acceptance criteria and Product Owner expectations (if specified).
+- [ ] My change requires a change to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] Breaking change (fix or feature that would cause existing functionality to change).
+
+
+## CLOSE
+<!-- Fill with your info 
+[card code](https://path.to.pm.tracker/card code)
+
+Example:
+[TRY-777](https://path.to.pm.tracker/TRY-777) 
+-->
