@@ -1,4 +1,4 @@
-# <type>: (If applied, this commit will...) <subject> (Max 50 char)
+# <type>(<scope>): (If applied, this commit will...) <subject> (Max 50 char)
 # |<----  Using a Maximum Of 50 Characters  ---->|
 
 
@@ -16,7 +16,9 @@
 #    style    (formatting, missing semi colons, etc; no code change)
 #    docs     (changes to documentation)
 #    test     (adding or refactoring tests; no production code change)
-#    chore    (updating grunt tasks etc; no production code change)
+#    chore    (updating webpack tasks etc; no production code change)
+# --------------------
+# Scope is a name of the project that changes are affecting. (name specified in a project's package.json)
 # --------------------
 # Remember to
 #    Capitalize the subject line
