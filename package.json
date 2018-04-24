@@ -1,0 +1,13 @@
+{
+    "name": "git-base-templates",
+    "version": "0.1.0",
+    "license": "MIT",
+    "scripts": {
+        "preparecommitmsg": "commit-template ./docs/git/COMMIT_TEMPLATE.txt"
+    },
+    "private": true,
+    "devDependencies": {
+        "commit-template": "^1.0.0",
+        "husky": "^0.14.3"
+    }
+}
