@@ -6,6 +6,9 @@ fill with your info and copy into input above
 Types of changes:
 - BugFix (non-breaking change which fixes an issue)
 - Feature (change which adds functionality)
+- Docs (changes to documentation itself; no production code change)
+- Chore (maintain changes; updating webpack tasks etc; no production code change)
+- Test (adding or refactoring tests itself; no production code change)
 
 Example:
 Feature | app-name: create router for inbox in marketplace | TRY-777 
@@ -16,7 +19,7 @@ Feature | app-name: create router for inbox in marketplace | TRY-777
 
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-- [ ] My commits messages format follows the project [git commit message format](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines).
+- [ ] My commits messages format follows the project [git commit message format](https://github.com/fullstackdb/pr-templates/blob/master/.github/COMMIT_TEMPLATE.txt).
 - [ ] My code follows the code style of project.
 - [ ] Lint checking is passed.
 - [ ] I have added tests to cover my changes.

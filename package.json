@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "license": "MIT",
     "scripts": {
-        "preparecommitmsg": "commit-template ./docs/git/COMMIT_TEMPLATE.txt"
+        "preparecommitmsg": "commit-template ./.github/COMMIT_TEMPLATE.txt"
     },
     "private": true,
     "devDependencies": {
